@@ -9,7 +9,7 @@
     <packaging>jar</packaging>
 
     <name>yuehai-demo-eureka</name>
-    <description>Eureka注册中心</description>
+    <description>Eureka注册/发现中心</description>
 
     <parent>
         <groupId>org.springframework.boot</groupId>
