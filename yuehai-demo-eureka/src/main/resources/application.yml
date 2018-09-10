@@ -1,5 +1,5 @@
 spring:
   profiles:
-    active: 7002
+    active: 7001
   application:
     name: yuehai-demo-eureka
