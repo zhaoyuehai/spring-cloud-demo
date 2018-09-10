@@ -8,11 +8,12 @@ import org.springframework.web.bind.annotation.RestController;
  * Created by zhaoyuehai 2018/9/10
  */
 @RestController
-@RequestMapping("/yuehai")
+@RequestMapping("/yuehai/demo")
 public class DemoController {
+
 
     @GetMapping("/hello")
     public String hello() {
-        return "Hi,This is yuehai-demo-provider!";
+        return "Hi,This is yuehai-demo-provider! Time --> " + System.currentTimeMillis();
     }
 }

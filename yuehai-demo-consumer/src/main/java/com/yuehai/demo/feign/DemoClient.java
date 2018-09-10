@@ -14,10 +14,10 @@ import java.util.List;
 @FeignClient(value = "YUEHAI-DEMO-PROVIDER")
 public interface DemoClient {
 
-    @GetMapping("/yuehai/hello")
+    @GetMapping("/yuehai/demo/hello")
     String hello();
 
-    @GetMapping("/user/all")
+    @GetMapping("/yuehai/user/all")
     List<User> findAll(@RequestParam("pageNum") int pageNum, @RequestParam("pageSize") int pageSize);
 
 }
