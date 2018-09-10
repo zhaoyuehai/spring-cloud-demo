@@ -1,0 +1,5 @@
+spring:
+  profiles:
+    active: 7002
+  application:
+    name: yuehai-demo-eureka

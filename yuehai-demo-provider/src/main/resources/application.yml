@@ -1,0 +1,12 @@
+server:
+  port: 8001
+spring:
+  application:
+    name: yuehai-demo-provider
+
+eureka:
+  client:
+    service-url: # 将该service注册到集群eureka中
+      defaultZone: http://eureka7001.com:7001/eureka/,http://eureka7002.com:7002/eureka/,http://eureka7003.com:7003/eureka/
+  instance:
+    instance-id: yuehai-demo-provider # 在eureka中显示对应的服务名字
