@@ -1,5 +1,7 @@
 # yuehai-demo
 
+README: [English](https://github.com/zhaoyuehai/yuehai-demo/blob/master/README.md) | [中文](https://github.com/zhaoyuehai/yuehai-demo/blob/master/README-zh.md)
+
 SpringCloud Demo
 
     (SpringBoot版本：2.0.4.RELEASE SpringCloud版本：Finchley.SR1)
