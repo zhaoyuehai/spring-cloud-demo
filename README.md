@@ -18,9 +18,9 @@ yuehai-demo-eureka:
     
     ->Registry cluster
 
-![Image text](https://github.com/zhaoyuehai/yuehai-demo/blob/master/1536557590.png)
-![Image text](https://github.com/zhaoyuehai/yuehai-demo/blob/master/1536558263.png)
-![Image text](https://github.com/zhaoyuehai/yuehai-demo/blob/master/1536557754.png)
+![Image text](https://github.com/zhaoyuehai/yuehai-demo/blob/master/img/1536557590.png)
+![Image text](https://github.com/zhaoyuehai/yuehai-demo/blob/master/img/1536558263.png)
+![Image text](https://github.com/zhaoyuehai/yuehai-demo/blob/master/img/1536557754.png)
 
 
 yuehai-demo-provider:
