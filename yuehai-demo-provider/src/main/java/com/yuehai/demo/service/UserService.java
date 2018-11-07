@@ -1,7 +1,7 @@
 package com.yuehai.demo.service;
 
 
-import com.yuehai.demo.entity.User;
+import com.yuehai.demo.entity.UserBean;
 
 import java.util.List;
 
@@ -15,7 +15,7 @@ public interface UserService {
      * @param user user
      * @return ？
      */
-    Long add(User user);
+    Long add(UserBean user);
 
     /**
      * 删
@@ -31,7 +31,7 @@ public interface UserService {
      * @param user user
      * @return ？
      */
-    Long update(User user);
+    Long update(UserBean user);
 
     /**
      * 查单条
@@ -39,13 +39,19 @@ public interface UserService {
      * @param id id
      * @return id对应元素
      */
-    User getUser(Long id);
+    UserBean getUser(Long id);
 
     /**
      * 查所有
      *
      * @return 元素列表
      */
-    List<User> getAll(int pageNum, int pageSize);
+    List<UserBean> getAll(int pageNum, int pageSize);
 
+    /**
+     * 查单条
+     * @param username 用户名
+     * @return 用户名对应用户
+     */
+    UserBean getUser(String username);
 }

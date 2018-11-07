@@ -3,6 +3,7 @@ server:
 eureka:
   client:
     service-url:
-      defaultZone: http://eureka7002.com:7002/eureka/,http://eureka7003.com:7003/eureka/
-  instance:
-    hostname: eureka7001.com
+      defaultZone: http://192.168.99.100:7002/eureka/,http://192.168.99.100:7003/eureka/
+#      defaultZone: http://eureka7002.com:7002/eureka/,http://eureka7003.com:7003/eureka/
+#  instance:
+#    hostname: eureka7001.com
