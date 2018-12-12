@@ -1,6 +1,6 @@
 package com.yuehai.demo.controller;
 
-import com.yuehai.demo.entity.User;
+import com.yuehai.demo.entity.UserBean;
 import com.yuehai.demo.feign.DemoClient;
 import io.swagger.annotations.ApiOperation;
 import org.springframework.beans.factory.annotation.Autowired;
@@ -26,7 +26,7 @@ public class HelloController {
 
     @ApiOperation(value = "查询用户", notes = "查用户（size=100）")
     @GetMapping("/users")
-    public List<User> users() {
+    public List<UserBean> users() {
         return demoClient.findAll(1, 100);
     }
 }

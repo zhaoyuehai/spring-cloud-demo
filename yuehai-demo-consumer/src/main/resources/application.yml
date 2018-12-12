@@ -3,6 +3,11 @@ server:
 spring:
   application:
     name: yuehai-demo-consumer
+  rabbitmq:
+    host: localhost
+    port: 5672
+    username: guest
+    password: guest
 eureka:
   client:
     service-url:

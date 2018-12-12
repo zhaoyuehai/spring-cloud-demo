@@ -1,6 +1,6 @@
 package com.yuehai.demo.feign;
 
-import com.yuehai.demo.entity.User;
+import com.yuehai.demo.entity.UserBean;
 import org.springframework.cloud.openfeign.FeignClient;
 import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.RequestParam;
@@ -18,6 +18,6 @@ public interface DemoClient {
     String hello();
 
     @GetMapping("/yuehai/user/all")
-    List<User> findAll(@RequestParam("pageNum") int pageNum, @RequestParam("pageSize") int pageSize);
+    List<UserBean> findAll(@RequestParam("pageNum") int pageNum, @RequestParam("pageSize") int pageSize);
 
 }
