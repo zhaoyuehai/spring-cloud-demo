@@ -11,7 +11,6 @@ spring:
 eureka:
   client:
     service-url:
-      defaultZone: http://localhost:7001/eureka/
-  #      defaultZone: http://192.168.99.100:7001/eureka/,http://192.168.99.100:7002/eureka/,http://192.168.99.100:7003/eureka/
+      defaultZone: http://eureka7001.com:7001/eureka/,http://eureka7001.com:7002/eureka/,http://eureka7001.com:7003/eureka/
   instance:
     instance-id: yuehai-demo-consumer

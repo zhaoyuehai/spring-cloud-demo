@@ -40,8 +40,7 @@ mybatis:
 eureka:
   client:
     service-url: # 将该service注册到集群eureka中
-      defaultZone: http://localhost:7001/eureka/
-  #      defaultZone: http://192.168.99.100:7001/eureka/,http://192.168.99.100:7002/eureka/,http://192.168.99.100:7003/eureka/
+      defaultZone: http://eureka7001.com:7001/eureka/,http://eureka7001.com:7002/eureka/,http://eureka7001.com:7003/eureka/
   instance:
     instance-id: yuehai-demo-provider # 在eureka中显示对应的服务名字
 
